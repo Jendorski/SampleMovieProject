@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SampleMoviesProject" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorRebeccaPurple</item>
+        <item name="colorPrimaryVariant">@color/colorMediumPurple</item>
+        <item name="colorOnPrimary">@color/colorMediumPurple</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorOliveDrab</item>
+        <item name="colorSecondaryVariant">@color/colorYellowGreen</item>
+        <item name="colorOnSecondary">@color/colorYellowGreen</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>
