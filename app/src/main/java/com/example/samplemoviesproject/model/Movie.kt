@@ -11,6 +11,7 @@ import com.example.samplemoviesproject.model.Movie.Companion.TABLE_NAME
 @Entity(tableName = TABLE_NAME)
 data class Movie(
 
+        
     @PrimaryKey
     var id: Int? = 0,
     var title: String? = null,
